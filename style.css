@@ -3,7 +3,6 @@ body {
     height:100%;
     margin:0;
     padding:0;
-    background-color: lightgray;
 }
 
 .header {
@@ -51,12 +50,21 @@ body {
 }
 
 .txt {
-    
+    justify-content: center;
 }
 
 #big-box {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15%;
+    gap: 12%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.txt p {
+    display:flex;
+    justify-content: center;
 }
